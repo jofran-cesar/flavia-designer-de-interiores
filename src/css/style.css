@@ -1,0 +1,189 @@
+html {    
+    font-family: 'Champagne & Limousines', sans-serif;
+    font-weight: 400;
+    max-width: 1920px;
+}
+
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url(/src/fonts/Champagne\ &\ Limousines.ttf),
+    url(/src/fonts/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .logo img {
+    padding: 20px 40px;
+}
+
+.cabecalho .logo a:hover {
+    opacity: 0.5;
+    transition: 0.3;
+}
+
+.cabecalho .logo h1 {
+    font-size: 0px;
+}
+
+.menu ul {
+    display: flex;        
+}
+
+.menu ul li {
+    padding: 70px;
+    font-size: 1.6rem;
+}
+
+.menu ul li a:hover {
+    font-weight: 700;
+    transition: 0.3;
+}
+
+.realize-um-sonho {
+    height: 100vh;    
+    background: url(../images/escritório.png) center center no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.realize-um-sonho h2 {     
+    font-size: 7rem;
+    color: white;      
+}
+
+.sobre {
+    display: flex;
+    background-color: #c8c8c8;    
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.sobre img {
+    text-align: center;
+    padding: 20px;
+    width: 700px;
+    margin-right: 20px
+}
+
+.sobre .texto {
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 5rem;
+}
+
+.sobre p {
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 20px;
+}
+.acervo {
+    display: flex;     
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.projetos {
+    padding: 50px;
+}
+.projetos h2{
+    font-size: 6rem;
+    padding: 70px;
+    text-align: center;       
+}
+
+.projetos .imagens {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.projetos .imagens img {  
+    width: 450px;   
+  }
+
+.contato {
+    display: flex;
+    gap: 50px;
+    background-color: #c8c8c8;
+    padding: 70px;
+    justify-content: center;
+}
+
+.contato .informacoes h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contato .informacoes p {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.contato .dados input {
+    width: 250px;
+    height: 30px;
+    margin: 10px 7px;
+}
+
+.telefone-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.6rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    text-align: center;
+}
+
+.rodape .navegacao { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape .navegacao a img:hover {
+    opacity: 0.5;
+    transition: 0.3;
+}
+
+.rodape .copyright {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.rodape .redes-sociais .instagram,
+.rodape .redes-sociais .facebook {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.rodape .redes-sociais a:hover {
+    opacity: 0.5;
+    transition: 0.3;
+}
+    
+
+
+
+
+
+   
+
+
+
+ 

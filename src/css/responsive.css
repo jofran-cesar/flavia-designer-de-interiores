@@ -1,0 +1,155 @@
+
+@media(max-width: 1400px) {    
+    .realize-um-sonho h2 {
+        font-size: 4rem;
+        text-align: center;
+    }     
+}
+
+@media(max-width: 1024px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre img {
+        width: 500px;
+    }
+
+    .projetos .acervo {
+        align-items: center;
+    }
+
+    .projetos .acervo img {
+        width: 300px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contato .dados {
+        align-self: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        font-size: 2rem;
+        padding: 40px;
+    }
+
+    .realize-um-sonho h2 {
+        font-size: 3rem;
+    }
+
+    .sobre h2 {
+        font-size: 2rem;
+    }
+
+    .sobre p {
+        font-size: 1.6rem;
+    }
+
+    .projetos h2 {
+        font-size: 2rem;
+    }
+
+    .projetos .acervo .imagens img {
+        width: 250px;      
+       
+    }
+
+    .contato .informacoes h2 {
+        font-size: 2rem;
+        text-align: center;
+    }  
+
+    .contato .informacoes p {
+        font-size: 1.6rem ;
+    }
+
+    .contato .informacoes .telefone-email p {
+        font-size: 1.4rem;
+    }
+
+    .contato .dados {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .telefone-email {
+        display: flex;
+        flex-direction: column;
+    }
+    .contato .telefone-email p {
+        font-size: 2rem;
+        
+    }
+    .contato .dados textarea {
+        width: 400px;
+    }
+
+    .rodape .navegacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+        
+}
+
+@media (max-width: 425px) {
+    .realize-um-sonho h2 {
+        font-size: 1.8rem;
+    }
+
+    .sobre img {
+        width: 300px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+
+    .projetos h2 {
+        padding: 50px;
+    }
+
+    .projetos .acervo .imagens {
+        gap: 30px;
+    }
+
+    .contato .informacoes .telefone-email p {
+        font-size: 1rem;
+    }   
+
+    .contato .dados textarea {
+        width: 300px;
+    }
+
+    .rodape .copyright {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .rodape .copyright .redes-sociais {
+        margin-top: 30px;
+    }
+    
+}
+
